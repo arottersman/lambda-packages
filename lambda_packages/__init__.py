@@ -47,6 +47,13 @@ lambda_packages = {
                                  'datrie_extended', 'python2.7-datrie_extended-0.7.3.tar.gz')
         }
     },
+    'gdal': {
+        'python2.7': {
+            'version': '2.1.3',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'gdal', 'python2.7-gdal-2.1.3.tar.gz')
+        }
+    },
     'lxml': {
         'python2.7': {
             'version': '3.6.0',
